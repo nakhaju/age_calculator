@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-func calculateAge(birthDate time.Time) int {
+func CalculateAge(birthDate time.Time) int {
 	today := time.Now()
 	age := today.Year() - birthDate.Year()
 
